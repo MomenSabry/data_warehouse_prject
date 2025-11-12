@@ -116,5 +116,3 @@ This document outlines the naming conventions used for schemas, tables, views, c
 - `load_gold` → Procedure that populates analytical models or views in the Gold layer.  
 
 ---
-
-**End of Document**
