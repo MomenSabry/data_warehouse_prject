@@ -1,4 +1,4 @@
-# 🪙 Gold Layer Data Catalog
+# Gold Layer Data Catalog
 
 ## 📘 File Overview
 The **Gold Layer** represents the business-ready data models designed for analytics, reporting, and dashboarding.  
@@ -83,5 +83,5 @@ Stores all sales transactions and links customers and products for analytical re
 **Author:** Data Engineering Team  
 **Layer:** Gold (Analytics-Ready)  
 **Version:** 1.0  
-**Last Updated:** `YYYY-MM-DD`
+**Last Updated:** `2025-11-12`
 
