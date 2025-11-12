@@ -75,7 +75,6 @@ This document outlines the naming conventions used for schemas, tables, views, c
 |------------|------------------------|-------------------------------|
 | `dim_`     | Dimension table        | `dim_customer`, `dim_product` |
 | `fact_`    | Fact table             | `fact_sales`                  |
-| `report_`  | Reporting summary view | `report_sales_monthly`        |
 
 ---
 
