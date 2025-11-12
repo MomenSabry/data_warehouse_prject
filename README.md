@@ -37,27 +37,7 @@ This project includes:
 
 ---
 
-## 📂 Repository Structure
 
-data-warehouse-project/
-│
-├── datasets/ # Raw CSV datasets from ERP and CRM
-├── docs/ # Documentation and diagrams
-│ ├── data_architecture.png # Architecture diagram
-│ ├── data_catalog.md # Catalog of tables and columns
-│ ├── naming-conventions.md # Naming standards for tables, columns, procedures
-├── scripts/ # SQL scripts for ETL and modeling
-│ ├── bronze/ # Scripts for raw data ingestion
-│ ├── silver/ # Scripts for cleaning and transformations
-│ ├── gold/ # Scripts for business models (facts & dimensions)
-├── tests/ # Validation and quality test scripts
-├── README.md # This file
-├── LICENSE # MIT License
-└── .gitignore # Git ignore configuration
-
-
-
----
 
 ## 🚀 Project Requirements
 
@@ -104,8 +84,6 @@ Hi! I'm **Moamen Sabry Eldabea**, a data enthusiast working on SQL-based data en
 
 📧 [mommensabry@gmail.com](mailto:mommensabry@gmail.com)  
 🔗 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/moamen-sabry-88306b1b3/)
-
-**Tools I Use**: MS SQL Server, Excel, Notion, Draw.io
 
 ---
 
