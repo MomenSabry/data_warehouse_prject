@@ -78,13 +78,4 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ---
 
-## 🌟 About Me
-
-Hi! I'm **Moamen Sabry Eldabea**, a data enthusiast working on SQL-based data engineering and analytics projects.
-
-📧 [mommensabry@gmail.com](mailto:mommensabry@gmail.com)  
-🔗 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/moamen-sabry-88306b1b3/)
-
----
-
 Thank you for visiting my repository! 🚀
