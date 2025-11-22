@@ -19,10 +19,66 @@ The data architecture follows Medallion Architecture **Bronze**, **Silver**, and
 
 This project includes:
 
-- **Data Architecture**: Designing a modern data warehouse using Bronze, Silver, and Gold layers.  
-- **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.  
-- **Data Modeling**: Creating fact and dimension tables optimized for analytics.  
-- **Analytics & Reporting**: SQL-based reports and dashboards to extract insights on customer behavior, product performance, and sales trends.
+- **Data Architecture**: Modern DW design using Bronze–Silver–Gold layers.  
+- **ETL Pipelines**: Extraction, transformation, and loading from source systems into the warehouse.  
+- **Data Modeling**: Fact and dimension tables optimized for BI workloads.  
+- **Analytics & Reporting**: SQL-based reports and analyses covering customers, products, sales, and performance trends.
+
+---
+
+## 🆕 Newly Added SQL Analysis Files
+
+Three major SQL files were added to extend the analytical depth of the project:
+
+### 1. **Customer & Product Reporting (Gold Layer Views)**
+This file introduces two production-ready analytical views:
+
+- `gold.report_customers`  
+  - Customer segmentation (VIP, Regular, New)  
+  - Total sales, total orders, recency, lifespan  
+  - Average order value and average monthly spend  
+  - Age group classification  
+
+- `gold.report_products`  
+  - Product performance segmentation (High-Performer, Mid-Range, Low-Performer)  
+  - Revenue, quantity sold, customer counts  
+  - Lifespan, recency, average selling price  
+
+These views represent clean, business-ready datasets ideal for dashboards and BI tools.
+
+---
+
+### 2. **Exploratory Data Analysis (EDA) Queries**
+This file contains a rich set of SQL queries used for:
+
+- Inspecting schema and table structures  
+- Profiling customers, products, and sales  
+- Computing global KPIs (total sales, orders, quantity, ASP)  
+- Demographic breakdowns (age/gender/country)  
+- Category performance and contribution analysis  
+- Ranking (top products, top customers, bottom performers)  
+
+These queries support early data discovery, validation, and exploration before model building.
+
+---
+
+### 3. **Advanced Performance & Trend Analysis**
+This file includes advanced analytical SQL such as:
+
+- **Time-series analysis:**  
+  - Monthly and yearly sales trends  
+  - Running totals  
+  - Moving averages  
+
+- **Year-over-Year (YoY) product performance:**  
+  - Annual revenue per product  
+  - Comparison to historical average  
+  - A classification of performance (Increase, Decrease, No Change)
+
+- **Customer lifecycle segmentation**  
+  Helps determine customer maturity and behavior over time.
+
+These analyses support deeper business insights and strategic decision-making.
 
 ---
 
@@ -37,21 +93,17 @@ This project includes:
 
 ---
 
-
-
 ## 🚀 Project Requirements
 
 ### Data Engineering
-
 - **Objective**: Build a modern data warehouse consolidating ERP and CRM data into analytical models.  
-- **Scope**: Latest dataset only; historical tracking not required.  
-- **Data Quality**: Handle nulls, inconsistent codes, invalid dates, and duplicates.  
-- **Integration**: Combine sources into a single unified model optimized for analytics.  
+- **Scope:** Latest dataset only; historical tracking not required.  
+- **Data Quality:** Handle nulls, inconsistent codes, invalid dates, and duplicates.  
+- **Integration:** Combine sources into a single unified model optimized for analytics.  
 
 ### Analytics & Reporting
-
-- **Objective**: Deliver SQL-based insights on customer behavior, product performance, and sales trends.  
-- **Outcome**: Enable stakeholders to make data-driven decisions efficiently.  
+- **Objective:** Deliver SQL-based insights on customer behavior, product performance, and sales trends.  
+- **Outcome:** Enable stakeholders to make data-driven decisions efficiently.  
 
 ---
 
